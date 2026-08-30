@@ -24,7 +24,6 @@ import { styled, css, useTheme } from '@apache-superset/core/theme';
 import { Constants, Form, Icons, Flex } from '@superset-ui/core/components';
 import { ErrorBoundary } from 'src/components';
 import { testWithId } from 'src/utils/testUtils';
-import useEffectEvent from 'src/hooks/useEffectEvent';
 import {
   BaseModalWrapper,
   BaseModalBody,
@@ -443,9 +442,9 @@ function FiltersConfigModal({
     onCancel();
   }, [resetForm, onCancel]);
 
-  const toggleExpand = useEffectEvent(() => {
-    setExpanded(!expanded);
-  });
+  const toggleExpand = useCallback(() => {
+    setExpanded(prevExpanded => !prevExpanded);
+  }, []);
 
   const ToggleIcon = expanded
     ? Icons.FullscreenExitOutlined
