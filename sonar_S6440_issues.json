@@ -1,0 +1,648 @@
+{
+  "rule": "typescript:S6440",
+  "host": "https://sonar.murphylearn.com",
+  "projects": {
+    "superset": {
+      "unresolved_total": 42,
+      "resolved_total": 0,
+      "issues": [
+        {
+          "key": "bbdb82d5-9457-4498-8536-fcf3538c6634",
+          "component": "superset:packages/superset-ui-core/src/components/AsyncAceEditor/index.tsx",
+          "line": 592,
+          "message": "React Hook \"useTheme\" is called in function \"placeholder\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-10-30T16:26:21+0000"
+        },
+        {
+          "key": "163a2933-f8e8-47a8-bbd6-91995a4049c8",
+          "component": "superset:packages/superset-ui-core/src/components/Grid/Grid.stories.tsx",
+          "line": 76,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-01-29T05:33:01+0000"
+        },
+        {
+          "key": "10f52f4a-c9c6-4d25-a83a-af3ad441cfd3",
+          "component": "superset:packages/superset-ui-core/src/components/Grid/Grid.stories.tsx",
+          "line": 77,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-01-29T05:33:01+0000"
+        },
+        {
+          "key": "7bc6d516-7dbb-416c-83b4-42a2545ec296",
+          "component": "superset:packages/superset-ui-core/src/components/Grid/Grid.stories.tsx",
+          "line": 78,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-01-29T05:33:01+0000"
+        },
+        {
+          "key": "91874e76-7e8b-44b3-b424-8bf7c90bd106",
+          "component": "superset:packages/superset-ui-core/src/components/Grid/Grid.stories.tsx",
+          "line": 267,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-06-20T20:38:58+0000"
+        },
+        {
+          "key": "e83c3384-3ba3-4213-85c4-6d002772fb2e",
+          "component": "superset:packages/superset-ui-core/src/components/Grid/Grid.stories.tsx",
+          "line": 268,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-06-20T20:38:58+0000"
+        },
+        {
+          "key": "cce6a51b-0a72-4bf7-884d-4fa51e198052",
+          "component": "superset:packages/superset-ui-core/src/components/Grid/Grid.stories.tsx",
+          "line": 269,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-06-20T20:38:58+0000"
+        },
+        {
+          "key": "da092d3c-77e1-4392-858a-8d94e0fa59cb",
+          "component": "superset:packages/superset-ui-core/src/components/TableCollection/TableCollection.stories.tsx",
+          "line": 347,
+          "message": "React Hook \"useTable\" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-12T00:06:23+0000"
+        },
+        {
+          "key": "c60cb6ee-3375-4d70-9dde-3a9c1fda3860",
+          "component": "superset:playwright/helpers/fixtures/testAssets.ts",
+          "line": 53,
+          "message": "React Hook \"use\" is called in function \"testAssets\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-06T00:42:07+0000"
+        },
+        {
+          "key": "f182defc-5c04-42e5-9490-df76fc6ea16b",
+          "component": "superset:plugins/plugin-chart-table/src/DataTable/DataTable.tsx",
+          "line": 476,
+          "message": "React Hook \"useRef\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-09T04:42:10+0000"
+        },
+        {
+          "key": "6676b333-45ba-4e32-bde3-3c8010f3135c",
+          "component": "superset:plugins/plugin-chart-table/src/DataTable/DataTable.tsx",
+          "line": 477,
+          "message": "React Hook \"useEffect\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-09T04:42:10+0000"
+        },
+        {
+          "key": "d40c4797-e05e-441f-9069-b2045b6a5161",
+          "component": "superset:plugins/plugin-chart-table/src/DataTable/DataTable.tsx",
+          "line": 484,
+          "message": "React Hook \"useRef\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-09T04:42:10+0000"
+        },
+        {
+          "key": "bdc3cbe5-5464-42af-9872-c2ba5d16be9a",
+          "component": "superset:plugins/plugin-chart-table/src/DataTable/DataTable.tsx",
+          "line": 485,
+          "message": "React Hook \"useRef\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-09T04:42:10+0000"
+        },
+        {
+          "key": "a410bed8-8eb3-4245-8867-c22fba198934",
+          "component": "superset:plugins/plugin-chart-table/src/DataTable/DataTable.tsx",
+          "line": 525,
+          "message": "React Hook \"useEffect\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-09T04:42:10+0000"
+        },
+        {
+          "key": "582bd5be-5a4c-4f9e-b44c-c381a481c749",
+          "component": "superset:src/SqlLab/components/AppLayout/index.tsx",
+          "line": 90,
+          "message": "`autoHide` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-08T19:44:31+0000"
+        },
+        {
+          "key": "3cf42541-54c2-47a7-b590-85b3140d936b",
+          "component": "superset:src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 232,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "d97e1dcc-f905-4ce3-8ac4-3e67c1672b7a",
+          "component": "superset:src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 236,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "1669242d-3084-4666-8819-156380fe8b0a",
+          "component": "superset:src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 248,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "7e6fbb6f-f293-42a2-afda-6cc6a1ce5f8e",
+          "component": "superset:src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 252,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-08-13T21:04:38+0000"
+        },
+        {
+          "key": "1b57e0f9-ed32-4386-abbf-3a63b8c27ffb",
+          "component": "superset:src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 275,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "8b1666c7-34b7-4980-962c-18a932cc0363",
+          "component": "superset:src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 279,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "9ea1df08-502c-4757-b0aa-470c0c1d2ef5",
+          "component": "superset:src/SqlLab/components/SqlEditor/index.tsx",
+          "line": 999,
+          "message": "`onSqlChanged` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-11-20T19:13:54+0000"
+        },
+        {
+          "key": "bd472c29-9202-4f4c-84ec-c5664a007f41",
+          "component": "superset:src/SqlLab/components/SqlEditor/index.tsx",
+          "line": 1000,
+          "message": "`onSqlChanged` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2022-09-20T13:41:14+0000"
+        },
+        {
+          "key": "9420e5e5-6224-403b-88c7-6218ada42828",
+          "component": "superset:src/components/Tag/Tag.stories.tsx",
+          "line": 174,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-06-20T20:38:58+0000"
+        },
+        {
+          "key": "581d5f67-4db9-47fd-b5b6-a9543698e423",
+          "component": "superset:src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx",
+          "line": 561,
+          "message": "`toggleExpand` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-20T17:46:13+0000"
+        },
+        {
+          "key": "ddf56d31-cf69-4236-82e7-9262efd38e5f",
+          "component": "superset:src/features/subjects/SubjectPicker/SubjectPicker.stories.tsx",
+          "line": 95,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-07-08T18:00:03+0000"
+        },
+        {
+          "key": "0ab2d2e9-c1cd-40d1-8a99-33883eb57354",
+          "component": "superset:src/features/subjects/SubjectPicker/SubjectPicker.stories.tsx",
+          "line": 97,
+          "message": "React Hook \"useCallback\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-07-08T18:00:03+0000"
+        },
+        {
+          "key": "59c2485f-dc48-44f5-b114-6f9e69b21c1d",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 120,
+          "message": "React Hook \"useListViewResource\" is called conditionally. React Hooks must be called in the exact same order in every component render.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "fbdcc1b4-a3bc-409f-bcd5-6a73b15c31a8",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 125,
+          "message": "React Hook \"useMemo\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "64cc2a9b-d5ee-45ac-a9ad-94818cbe5bf1",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 128,
+          "message": "React Hook \"useState\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "f1013748-8d53-4286-b11a-2a47a57dbf50",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 129,
+          "message": "React Hook \"useState\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "a84b47ac-d22f-4976-9d15-6a7dde85d565",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 132,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "a37b5044-cbd9-47e6-879c-69d2bf2d0d9a",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 150,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "f75b19a8-6e2d-4cde-8140-0e59d8f863da",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 159,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "87667328-c9ed-4710-8c92-25ecc390eeba",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 168,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "7a27d0f5-4ea0-44a9-a113-dc69032228a6",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 185,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "64a4a57c-d145-45fd-aba0-5fa3d9273b4a",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 190,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "b033d660-6658-461b-bf16-82389d95677f",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 223,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "20b37692-4e9e-428c-a9a9-3298b676fcae",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 234,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "c2136c9a-a9a9-4791-bb80-d93ca0556f66",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 243,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "74251efd-c629-445d-affc-e834dcb80d49",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 248,
+          "message": "React Hook \"useMemo\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "fc66beae-051b-405d-874a-5cd4048210f5",
+          "component": "superset:src/pages/TaskList/index.tsx",
+          "line": 538,
+          "message": "React Hook \"useMemo\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        }
+      ]
+    },
+    "superset-frontend": {
+      "unresolved_total": 28,
+      "resolved_total": 0,
+      "issues": [
+        {
+          "key": "0a8d23ce-672b-489b-9924-f9cca2daae18",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/AppLayout/index.tsx",
+          "line": 90,
+          "message": "`autoHide` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-12-08T19:44:31+0000"
+        },
+        {
+          "key": "14700711-6356-49fa-af75-ec841d1a10cd",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 232,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "82ddbe70-4a54-434f-a03c-8b6df41f0bbb",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 236,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "deb810fa-da29-4e75-98ad-5887684f32eb",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 248,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "e2919d85-7733-4282-b0a9-7cc673599880",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 252,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-08-13T21:04:38+0000"
+        },
+        {
+          "key": "74c8ef8e-b934-4791-8f0f-14b7e08acc91",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 275,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "49c39897-a25f-400d-8e72-323e3834daaa",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/EditorWrapper/useKeywords.ts",
+          "line": 279,
+          "message": "`insertMatch` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-26T18:24:28+0000"
+        },
+        {
+          "key": "9f3e8196-1ba2-4958-bc3c-4e02a2d8105a",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/SqlEditor/index.tsx",
+          "line": 999,
+          "message": "`onSqlChanged` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-11-20T19:13:54+0000"
+        },
+        {
+          "key": "9a351397-daa5-45d8-a5c9-8f4d643674b9",
+          "component": "superset-frontend:superset-frontend/src/SqlLab/components/SqlEditor/index.tsx",
+          "line": 1000,
+          "message": "`onSqlChanged` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2022-09-20T13:41:14+0000"
+        },
+        {
+          "key": "c5b7b57d-fea4-447a-ab64-bf3d07128537",
+          "component": "superset-frontend:superset-frontend/src/components/Tag/Tag.stories.tsx",
+          "line": 174,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2025-06-20T20:38:58+0000"
+        },
+        {
+          "key": "ba1a5c1d-dc29-479d-9369-d11c9e760e6f",
+          "component": "superset-frontend:superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx",
+          "line": 561,
+          "message": "`toggleExpand` is a function created with React Hook \"useEffectEvent\", and can only be called from Effects and Effect Events in the same component. It cannot be assigned to a variable or passed down.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2023-07-20T17:46:13+0000"
+        },
+        {
+          "key": "4e299671-3f03-4234-9b72-8ace755d99d3",
+          "component": "superset-frontend:superset-frontend/src/features/subjects/SubjectPicker/SubjectPicker.stories.tsx",
+          "line": 95,
+          "message": "React Hook \"useState\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-07-08T18:00:03+0000"
+        },
+        {
+          "key": "b8fbdfa2-dedf-4470-83bc-0e0cf0eee107",
+          "component": "superset-frontend:superset-frontend/src/features/subjects/SubjectPicker/SubjectPicker.stories.tsx",
+          "line": 97,
+          "message": "React Hook \"useCallback\" is called in function \"render\" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word \"use\".",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-07-08T18:00:03+0000"
+        },
+        {
+          "key": "7582101c-2e37-483d-a320-77bfa3304836",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 120,
+          "message": "React Hook \"useListViewResource\" is called conditionally. React Hooks must be called in the exact same order in every component render.",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "127e349f-647e-4715-aa0b-13d0cc749c58",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 125,
+          "message": "React Hook \"useMemo\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "6490ed8e-be46-4115-b32f-6e0337782886",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 128,
+          "message": "React Hook \"useState\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "01842e87-129e-4dde-9d2a-565d35b5272b",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 129,
+          "message": "React Hook \"useState\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "20b4873a-c5ae-4e3c-a6d8-df0fdd986ed3",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 132,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "7fc02f51-0c8a-4161-ac3e-87986e231ee2",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 150,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "94f22b8c-d3de-49d0-b5d4-37c2d54a9eb8",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 159,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "7a5d67d3-e3d1-4215-87c5-9f335e504974",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 168,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "d6238b63-0afc-4bce-8785-42bda379ca9b",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 185,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "f4bfdbd7-0aeb-4da3-84db-801712417a1e",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 190,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "3de147c3-40de-4fcd-ad6b-7f56707a01b7",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 223,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "c5d33775-fcf5-4af8-9b83-9cbad647ca7a",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 234,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "00af09b6-f26e-4eda-896d-199abe3ba839",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 243,
+          "message": "React Hook \"useCallback\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "0b6be597-4667-494e-ac20-4d105676c665",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 248,
+          "message": "React Hook \"useMemo\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        },
+        {
+          "key": "8eaadcec-664f-4df3-a414-f818514f9d5b",
+          "component": "superset-frontend:superset-frontend/src/pages/TaskList/index.tsx",
+          "line": 538,
+          "message": "React Hook \"useMemo\" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+          "status": "OPEN",
+          "severity": "MAJOR",
+          "creationDate": "2026-02-09T18:45:56+0000"
+        }
+      ]
+    }
+  }
+}
