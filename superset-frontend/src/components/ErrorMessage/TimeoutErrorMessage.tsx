@@ -62,9 +62,10 @@ export function TimeoutErrorMessage({
       <p>
         {t('This may be triggered by:')}
         <br />
-        {extra.issue_codes
-          .map<ReactNode>(issueCode => <IssueCode {...issueCode} />)
-          .reduce((prev, curr) => [prev, <br />, curr])}
+        {extra.issue_codes.length > 0 &&
+          extra.issue_codes
+            .map<ReactNode>(issueCode => <IssueCode {...issueCode} />)
+            .reduce((prev, curr) => [prev, <br />, curr])}
       </p>
       {isVisualization && extra.editors && (
         <>
