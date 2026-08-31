@@ -583,28 +583,29 @@ export const SQLEditor = AsyncAceEditor([
   'ext/searchbox',
 ]);
 
+// a custom placeholder in SQL lab for less jumpy re-renders
+function FullSQLEditorPlaceholder() {
+  const theme = useTheme();
+  const gutterBackground = theme.colorBgElevated;
+  return (
+    <div
+      style={{
+        height: '100%',
+      }}
+    >
+      <div
+        style={{ width: 41, height: '100%', background: gutterBackground }}
+      />
+      {/* make it possible to resize the placeholder */}
+      <div className="ace_content" />
+    </div>
+  );
+}
+
 export const FullSQLEditor = AsyncAceEditor(
   ['mode/sql', 'theme/github', 'ext/language_tools', 'ext/searchbox'],
   {
-    // a custom placeholder in SQL lab for less jumpy re-renders
-    placeholder: () => {
-      // Use a hook to get theme colors
-      const theme = useTheme();
-      const gutterBackground = theme.colorBgElevated;
-      return (
-        <div
-          style={{
-            height: '100%',
-          }}
-        >
-          <div
-            style={{ width: 41, height: '100%', background: gutterBackground }}
-          />
-          {/* make it possible to resize the placeholder */}
-          <div className="ace_content" />
-        </div>
-      );
-    },
+    placeholder: FullSQLEditorPlaceholder,
   },
 );
 
